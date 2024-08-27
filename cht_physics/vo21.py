@@ -7,9 +7,10 @@ Created on Fri Mar 11 10:23:10 2022
 Python version of runup formulations Van Ormondt, 2O21 
 """
 
-from cht.physics.disper import disper, disper_fentonmckee
 import numpy as np
 from scipy import interpolate as intp
+
+from .disper import disper, disper_fentonmckee
 
 class runup_vo21:
     

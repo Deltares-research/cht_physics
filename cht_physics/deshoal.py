@@ -5,7 +5,7 @@ Created on Tue Jun 28 15:26:53 2022
 @author: Roel de Goede
 """
 
-from cht.physics.disper import disper
+from .disper import disper
 import numpy as np
 from scipy import interpolate as intp
     
